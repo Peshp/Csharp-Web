@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Hello World!";
+}
+
+<div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white"
+     style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/003.webp');">
+    <div class="text-center mb-3">
+        <h1>@ViewBag.Message</h1>
+        <h2>@ViewData["Title"]</h2>
+        <p class="text-info">This is the Home page</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-6">
+        <div class="bg-image card"
+             style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/003.webp');">
+            <div class="card-body text-white">
+                <h5 class="card-title">About</h5>
+                <p class="card-text">
+                    About page contains information about the app and MVC controller
+                </p>
+                <a href="https://localhost:7124/Home/About" class="btn btn-outline-light">About</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="bg-image card"
+             style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/003.webp');">
+            <div class="card-body text-white">
+                <h5 class="card-title">Numbers to N</h5>
+                <p class="card-text">
+                    Numbers to N page can print number 1 to N, which N is custom number.
+                </p>
+                <a href="https://localhost:7124/Home/NumbersToN" class="btn btn-outline-light">Numbers</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="m-5">
+    <div>
+        <div class="card"
+             style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/003.webp');">
+            <div class="card-body text-white text-center">
+                <h4 class="card-title text-center">Products</h4>
+                <p class="card-text text-center">
+                    Click here to see out products.
+                </p>
+                <a href="https://localhost:7124/Products/All" class="btn btn-outline-light btn-lg btn-block">About</a>
+            </div>
+        </div>
+    </div>
+</div>
