@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductWebApp", "ProductWebApp\ProductWebApp.csproj", "{5B8C9CCD-506B-4EED-B40B-726216709CD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductWebApp.Database", "ProductWebApp.Database\ProductWebApp.Database.csproj", "{EAB7FE53-15BF-4801-B930-58645555795B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B8C9CCD-506B-4EED-B40B-726216709CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B8C9CCD-506B-4EED-B40B-726216709CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B8C9CCD-506B-4EED-B40B-726216709CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B8C9CCD-506B-4EED-B40B-726216709CD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAB7FE53-15BF-4801-B930-58645555795B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAB7FE53-15BF-4801-B930-58645555795B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAB7FE53-15BF-4801-B930-58645555795B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAB7FE53-15BF-4801-B930-58645555795B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42FDF5A2-4595-4EC6-948C-92D4D87D6932}
+	EndGlobalSection
+EndGlobal
